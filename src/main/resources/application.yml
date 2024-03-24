@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: study
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: true
+    generate-ddl: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:6343/single_sign_on_db
+    username: daesoo
+    password: daesoo123
+    driver-class-name: org.postgresql.Driver
